@@ -10,10 +10,12 @@ dependencies = [
     "langchain-community>=0.3.31",
     "langchain-core>=0.3.78",
     "langchain-milvus>=0.2.1",
+    "langchain-openai>=0.3.35",
     "langgraph>=0.6.9",
     "numpy>=2.3.3",
     "openai>=2.2.0",
     "pandas>=2.3.3",
-    "pymilvus>=2.6.2",
+    "pymilvus[milvus-lite]>=2.6.2",
+    "pymupdf>=1.26.5",
     "transformers>=4.57.0",
 ]
