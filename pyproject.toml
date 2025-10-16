@@ -6,9 +6,14 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=6.30.1",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.31",
+    "langchain-core>=0.3.78",
+    "langchain-milvus>=0.2.1",
     "langgraph>=0.6.9",
     "numpy>=2.3.3",
     "openai>=2.2.0",
     "pandas>=2.3.3",
+    "pymilvus>=2.6.2",
     "transformers>=4.57.0",
 ]
